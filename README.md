@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/avatar.jpg" width="128" alt="Baolin Liu avatar" />
+  <img src="assets/doraemon-avatar.png" width="128" alt="Doraemon avatar" />
 
   <h1>Baolin Liu (刘宝林)</h1>
 
@@ -44,3 +44,5 @@ My recent work explores generative models and visual representation learning for
 ## Links
 
 - Google Scholar: <https://scholar.google.com/citations?user=vSxklo8AAAAJ&hl=zh-CN>
+
+Avatar image source: <https://freepngimg.com/png/80596-no-nobita-doraemon-cartoon-sos-smile-line>
