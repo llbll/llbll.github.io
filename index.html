@@ -160,34 +160,6 @@
       border-radius: 16px;
     }
 
-    .metrics {
-      display: grid;
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-      gap: 16px;
-      margin: 10px 0 54px;
-    }
-
-    .metric {
-      padding: 22px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: var(--panel);
-      box-shadow: 0 10px 25px rgba(21, 32, 43, 0.045);
-    }
-
-    .metric strong {
-      display: block;
-      font-size: 34px;
-      line-height: 1;
-    }
-
-    .metric span {
-      display: block;
-      margin-top: 8px;
-      color: var(--muted);
-      font-size: 14px;
-    }
-
     section {
       padding: 34px 0;
     }
@@ -266,12 +238,6 @@
       font-weight: 760;
     }
 
-    .cite {
-      width: 96px;
-      text-align: right;
-      font-weight: 760;
-    }
-
     footer {
       margin-top: 40px;
       padding: 30px 0 46px;
@@ -318,7 +284,6 @@
         font-size: 18px;
       }
 
-      .metrics,
     }
   </style>
 </head>
@@ -342,7 +307,7 @@
           <p class="eyebrow">3D AIGC · MLLM · Image processing</p>
           <h1 id="hero-title">Baolin Liu <br />(刘宝林)</h1>
           <p class="subtitle">
-            Researcher at Beijing University of Posts and Telecommunications, working on 3D AIGC,
+            Ph.D. student at Beijing University of Posts and Telecommunications, working on 3D AIGC,
             multimodal visual intelligence, image restoration, and light-field / naked-eye 3D display.
           </p>
           <div class="actions">
@@ -354,21 +319,6 @@
           <img src="https://avatars.githubusercontent.com/u/97347902?v=4" alt="Baolin Liu profile photo" />
         </div>
       </section>
-
-      <div class="metrics" aria-label="Google Scholar metrics">
-        <div class="metric">
-          <strong>188</strong>
-          <span>Citations</span>
-        </div>
-        <div class="metric">
-          <strong>5</strong>
-          <span>h-index</span>
-        </div>
-        <div class="metric">
-          <strong>4</strong>
-          <span>i10-index</span>
-        </div>
-      </div>
 
       <section id="research" aria-labelledby="research-title">
         <h2 class="section-title" id="research-title">Research</h2>
@@ -393,60 +343,76 @@
           <table>
             <thead>
               <tr>
+                <th>Role</th>
                 <th>Year</th>
                 <th>Title</th>
+                <th>Authors</th>
                 <th>Venue</th>
-                <th>Citations</th>
               </tr>
             </thead>
             <tbody>
               <tr>
+                <td>First author</td>
+                <td class="year">2026</td>
+                <td><a href="https://openreview.net/forum?id=H8L7A09ecZ">StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing</a></td>
+                <td>Baolin Liu, Zongyuan Yang, Yingde Song, Yongping Xiong</td>
+                <td>ECCV 2026</td>
+              </tr>
+              <tr>
+                <td>First author</td>
                 <td class="year">2026</td>
                 <td>ELF: Edit anything for light field displays</td>
+                <td>B Liu, Z Yang, Y Song, Y Xiong</td>
                 <td>Pattern Recognition, 113282</td>
-                <td class="cite">-</td>
               </tr>
               <tr>
-                <td class="year">2026</td>
-                <td>EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers</td>
-                <td>arXiv preprint arXiv:2605.16745</td>
-                <td class="cite">1</td>
-              </tr>
-              <tr>
-                <td class="year">2025</td>
-                <td>EYE3: Turn Anything into Naked-eye 3D</td>
-                <td>Proceedings of the IEEE/CVF International Conference on Computer Vision ...</td>
-                <td class="cite">1</td>
-              </tr>
-              <tr>
+                <td>First author</td>
                 <td class="year">2025</td>
                 <td>TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models</td>
+                <td>B Liu, Z Yang, C Chiu, Y Xiong</td>
                 <td>Pattern Recognition 164, 111513</td>
-                <td class="cite">42</td>
               </tr>
               <tr>
+                <td>Second author</td>
                 <td class="year">2024</td>
                 <td>DirectL: Efficient Radiance Fields Rendering for 3D Light Field Displays</td>
+                <td>Z Yang, B Liu, Y Song, L Yi, Y Xiong, Z Zhang, X Yu</td>
                 <td>ACM Transactions on Graphics (TOG) 43 (6), 1-19</td>
-                <td class="cite">20</td>
               </tr>
               <tr>
+                <td>Second author</td>
                 <td class="year">2024</td>
                 <td>Fat: Field-aware transformer for point cloud segmentation with adaptive attention fields</td>
+                <td>J Zhou, B Liu, Y Xiong, C Chiu, F Liu, X Gong</td>
                 <td>IEEE Transactions on Industrial Informatics 20 (9), 10825-10835</td>
-                <td class="cite">8</td>
               </tr>
               <tr>
+                <td>Second author</td>
                 <td class="year">2024</td>
                 <td>GDB: gated convolutions-based document binarization</td>
+                <td>Z Yang, B Liu, Y Xiong, G Wu</td>
                 <td>Pattern Recognition 146, 109989</td>
-                <td class="cite">39</td>
               </tr>
               <tr>
+                <td>Second author</td>
                 <td class="year">2023</td>
                 <td>Docdiff: Document enhancement via residual diffusion models</td>
+                <td>Z Yang, B Liu, Y Xxiong, L Yi, G Wu, X Tang, Z Liu, J Zhou, X Zhang</td>
                 <td>Proceedings of the 31st ACM international conference on multimedia, 2795-2806</td>
-                <td class="cite">77</td>
+              </tr>
+              <tr>
+                <td>Co-author</td>
+                <td class="year">2026</td>
+                <td>EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers</td>
+                <td>Z Yang, M Yi, W Ma, C Fan, B Li, B Liu, Y Lou, Y Song, Y Xiong, Z Guo, ...</td>
+                <td>arXiv preprint arXiv:2605.16745</td>
+              </tr>
+              <tr>
+                <td>Co-author</td>
+                <td class="year">2025</td>
+                <td>EYE3: Turn Anything into Naked-eye 3D</td>
+                <td>Y Song, Z Yang, B Liu, Y Xiong, S Chen, L Yi, Z Zhang, X Yu</td>
+                <td>Proceedings of the IEEE/CVF International Conference on Computer Vision ...</td>
               </tr>
             </tbody>
           </table>
@@ -458,7 +424,7 @@
 
   <footer>
     <div class="shell">
-      Scholar metrics and publication list are based on the Google Scholar profile checked on 2026-07-09.
+      Publication list is based on Google Scholar and author-provided updates.
     </div>
   </footer>
 </body>

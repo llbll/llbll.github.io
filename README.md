@@ -5,7 +5,7 @@
 
   <p>
     <strong>3D AIGC · MLLM · Image processing</strong><br />
-    Beijing University of Posts and Telecommunications
+    Ph.D. student, Beijing University of Posts and Telecommunications
   </p>
 
   <p>
@@ -16,7 +16,7 @@
 
 ## About
 
-I am interested in 3D AIGC, multimodal large language models, image processing, document image restoration, scene text super-resolution, point cloud understanding, and light-field / naked-eye 3D display.
+I am a Ph.D. student at Beijing University of Posts and Telecommunications. I am interested in 3D AIGC, multimodal large language models, image processing, document image restoration, scene text super-resolution, point cloud understanding, and light-field / naked-eye 3D display.
 
 My recent work explores generative models and visual representation learning for practical image enhancement, 3D understanding, 3D generation, and immersive display applications.
 
@@ -28,28 +28,19 @@ My recent work explores generative models and visual representation learning for
 - Point cloud segmentation and 3D scene understanding
 - Light-field rendering, editing, and naked-eye 3D display
 
-## Google Scholar
-
-| Metric | All | Since 2021 |
-| --- | ---: | ---: |
-| Citations | 188 | 188 |
-| h-index | 5 | 5 |
-| i10-index | 4 | 4 |
-
-<sub>Source: Google Scholar profile, checked on 2026-07-09.</sub>
-
 ## Publications
 
-| Year | Title | Venue | Citations |
-| --- | --- | --- | ---: |
-| 2026 | ELF: Edit anything for light field displays | Pattern Recognition, 113282 | - |
-| 2026 | EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers | arXiv preprint arXiv:2605.16745 | 1 |
-| 2025 | EYE3: Turn Anything into Naked-eye 3D | Proceedings of the IEEE/CVF International Conference on Computer Vision ... | 1 |
-| 2025 | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | Pattern Recognition 164, 111513 | 42 |
-| 2024 | DirectL: Efficient Radiance Fields Rendering for 3D Light Field Displays | ACM Transactions on Graphics (TOG) 43 (6), 1-19 | 20 |
-| 2024 | Fat: Field-aware transformer for point cloud segmentation with adaptive attention fields | IEEE Transactions on Industrial Informatics 20 (9), 10825-10835 | 8 |
-| 2024 | GDB: gated convolutions-based document binarization | Pattern Recognition 146, 109989 | 39 |
-| 2023 | Docdiff: Document enhancement via residual diffusion models | Proceedings of the 31st ACM international conference on multimedia, 2795-2806 | 77 |
+| Role | Year | Title | Authors | Venue |
+| --- | --- | --- | --- | --- |
+| First author | 2026 | [StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing](https://openreview.net/forum?id=H8L7A09ecZ) | Baolin Liu, Zongyuan Yang, Yingde Song, Yongping Xiong | ECCV 2026 |
+| First author | 2026 | ELF: Edit anything for light field displays | B Liu, Z Yang, Y Song, Y Xiong | Pattern Recognition, 113282 |
+| First author | 2025 | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | B Liu, Z Yang, C Chiu, Y Xiong | Pattern Recognition 164, 111513 |
+| Second author | 2024 | DirectL: Efficient Radiance Fields Rendering for 3D Light Field Displays | Z Yang, B Liu, Y Song, L Yi, Y Xiong, Z Zhang, X Yu | ACM Transactions on Graphics (TOG) 43 (6), 1-19 |
+| Second author | 2024 | Fat: Field-aware transformer for point cloud segmentation with adaptive attention fields | J Zhou, B Liu, Y Xiong, C Chiu, F Liu, X Gong | IEEE Transactions on Industrial Informatics 20 (9), 10825-10835 |
+| Second author | 2024 | GDB: gated convolutions-based document binarization | Z Yang, B Liu, Y Xiong, G Wu | Pattern Recognition 146, 109989 |
+| Second author | 2023 | Docdiff: Document enhancement via residual diffusion models | Z Yang, B Liu, Y Xxiong, L Yi, G Wu, X Tang, Z Liu, J Zhou, X Zhang | Proceedings of the 31st ACM international conference on multimedia, 2795-2806 |
+| Co-author | 2026 | EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers | Z Yang, M Yi, W Ma, C Fan, B Li, B Liu, Y Lou, Y Song, Y Xiong, Z Guo, ... | arXiv preprint arXiv:2605.16745 |
+| Co-author | 2025 | EYE3: Turn Anything into Naked-eye 3D | Y Song, Z Yang, B Liu, Y Xiong, S Chen, L Yi, Z Zhang, X Yu | Proceedings of the IEEE/CVF International Conference on Computer Vision ... |
 
 ## Links
 
