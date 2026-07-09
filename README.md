@@ -32,7 +32,7 @@ My recent work explores generative models and visual representation learning for
 
 | Role | Year | Title | Authors | Venue |
 | --- | --- | --- | --- | --- |
-| First author | 2026 | [StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing](https://openreview.net/forum?id=H8L7A09ecZ) | Baolin Liu, Zongyuan Yang, Yingde Song, Yongping Xiong | ECCV 2026 |
+| First author | 2026 | [StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing](https://openreview.net/forum?id=H8L7A09ecZ) | B Liu, Z Yang, Y Song, Y Xiong | ECCV 2026 |
 | First author | 2026 | ELF: Edit anything for light field displays | B Liu, Z Yang, Y Song, Y Xiong | Pattern Recognition, 113282 |
 | First author | 2025 | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | B Liu, Z Yang, C Chiu, Y Xiong | Pattern Recognition 164, 111513 |
 | Co-first author | 2025 | EYE3: Turn Anything into Naked-eye 3D | Y Song, Z Yang, B Liu, Y Xiong, S Chen, L Yi, Z Zhang, X Yu | Proceedings of the IEEE/CVF International Conference on Computer Vision ... |
