@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/doraemon-avatar.svg" width="128" alt="Doraemon-style avatar" />
+  <img src="assets/avatar.jpg" width="128" alt="Baolin Liu avatar" />
 
   <h1>Baolin Liu (刘宝林)</h1>
 
@@ -9,8 +9,7 @@
   </p>
 
   <p>
-    <a href="https://scholar.google.com/citations?user=vSxklo8AAAAJ&hl=zh-CN">Google Scholar</a> ·
-    <a href="https://github.com/llbll">GitHub</a>
+    <a href="https://scholar.google.com/citations?user=vSxklo8AAAAJ&hl=zh-CN">Google Scholar</a>
   </p>
 </div>
 
@@ -45,11 +44,3 @@ My recent work explores generative models and visual representation learning for
 ## Links
 
 - Google Scholar: <https://scholar.google.com/citations?user=vSxklo8AAAAJ&hl=zh-CN>
-- GitHub: <https://github.com/llbll>
-
-## GitHub Stats
-
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=llbll&show_icons=true&hide_border=true&rank_icon=github" alt="Baolin Liu GitHub stats" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=llbll&layout=compact&hide_border=true" alt="Top languages" />
-</div>
