@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/doraemon-avatar.png" width="128" alt="Doraemon avatar" />
+  <img src="assets/dorami-avatar.png" width="128" alt="Dorami avatar" />
 
   <h1>Baolin Liu (刘宝林)</h1>
 
@@ -31,7 +31,7 @@ My recent work explores generative models and visual representation learning for
 
 | Year | Title | Authors | Venue |
 | --- | --- | --- | --- |
-| 2026 | [StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing](https://openreview.net/forum?id=H8L7A09ecZ) | **B Liu**, Z Yang, Y Song, Y Xiong | ECCV 2026 |
+| 2026 | StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing | **B Liu**, Z Yang, Y Song, Y Xiong | ECCV 2026 |
 | 2026 | ELF: Edit anything for light field displays | **B Liu**, Z Yang, Y Song, Y Xiong | Pattern Recognition 2026 |
 | 2026 | EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers | Z Yang, M Yi, W Ma, C Fan, B Li, **B Liu**, Y Lou, Y Song, Y Xiong, Z Guo, ... | arXiv 2026 |
 | 2025 | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | **B Liu**, Z Yang, C Chiu, Y Xiong | Pattern Recognition 2025 |
@@ -45,4 +45,4 @@ My recent work explores generative models and visual representation learning for
 
 - Google Scholar: <https://scholar.google.com/citations?user=vSxklo8AAAAJ&hl=zh-CN>
 
-Avatar image source: <https://freepngimg.com/png/80596-no-nobita-doraemon-cartoon-sos-smile-line>
+Avatar image source: <https://freepngimg.com/png/80602-dorami-animation-ornament-doraemon-christmas-free-hd-image>
