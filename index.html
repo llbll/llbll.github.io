@@ -250,20 +250,50 @@
       display: flex;
       flex-wrap: wrap;
       align-items: center;
-      gap: 12px 18px;
+      justify-content: space-between;
+      gap: 18px 24px;
+    }
+
+    .footer-note {
+      max-width: 720px;
+      line-height: 1.7;
+    }
+
+    .visitor-stats {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-left: auto;
     }
 
     .visitor-count {
       display: inline-flex;
       align-items: center;
-      gap: 5px;
-      color: #475569;
+      justify-content: space-between;
+      gap: 12px;
+      min-width: 132px;
+      padding: 8px 12px;
+      border: 1px solid rgba(15, 118, 110, 0.16);
+      border-radius: 999px;
+      background: #f8fafc;
+      box-shadow: 0 6px 16px rgba(15, 23, 42, 0.04);
+      color: #64748b;
       white-space: nowrap;
     }
 
+    .stat-label {
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 0;
+      text-transform: uppercase;
+    }
+
     .visitor-count strong {
-      color: var(--ink);
-      font-weight: 760;
+      min-width: 2ch;
+      color: var(--teal);
+      font-size: 18px;
+      font-weight: 800;
+      text-align: right;
     }
 
     @media (max-width: 820px) {
@@ -302,6 +332,15 @@
 
       .subtitle {
         font-size: 18px;
+      }
+
+      .visitor-stats {
+        width: 100%;
+        margin-left: 0;
+      }
+
+      .visitor-count {
+        flex: 1 1 150px;
       }
 
     }
@@ -449,12 +488,20 @@
 
   <footer>
     <div class="shell footer-content">
-      <span>
+      <span class="footer-note">
         Publication list is based on Google Scholar and author-provided updates. Avatar image source:
         <a href="https://freepngimg.com/png/80602-dorami-animation-ornament-doraemon-christmas-free-hd-image">FreePNGimg</a>.
       </span>
-      <span class="visitor-count" id="busuanzi_container_site_pv">Views <strong id="busuanzi_value_site_pv">0</strong></span>
-      <span class="visitor-count" id="busuanzi_container_site_uv">Visitors <strong id="busuanzi_value_site_uv">0</strong></span>
+      <div class="visitor-stats" aria-label="Site traffic">
+        <span class="visitor-count" id="busuanzi_container_site_pv">
+          <span class="stat-label">Page views</span>
+          <strong id="busuanzi_value_site_pv">0</strong>
+        </span>
+        <span class="visitor-count" id="busuanzi_container_site_uv">
+          <span class="stat-label">Visitors</span>
+          <strong id="busuanzi_value_site_uv">0</strong>
+        </span>
+      </div>
     </div>
   </footer>
   <script defer src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
