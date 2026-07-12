@@ -32,6 +32,7 @@ My recent work explores generative models and visual representation learning for
 | Year | Title | Authors | Venue |
 | --- | --- | --- | --- |
 | 2026 | StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing | **B Liu**, Z Yang, Y Song, Y Xiong | ECCV 2026 |
+| 2026 | PFR-Net: Reliability-Ordered Evidence Routing for Light Field Denoising | **B Liu**, Y Song, Z Yang, Y Xiong | PRCV 2026 |
 | 2026 | ELF: Edit anything for light field displays | **B Liu**, Z Yang, Y Song, Y Xiong | Pattern Recognition 2026 |
 | 2026 | EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers | Z Yang, M Yi, W Ma, C Fan, B Li, **B Liu**, Y Lou, Y Song, Y Xiong, Z Guo, ... | arXiv 2026 |
 | 2025 | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | **B Liu**, Z Yang, C Chiu, Y Xiong | Pattern Recognition 2025 |
