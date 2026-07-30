@@ -35,12 +35,12 @@ My recent work explores generative models and visual representation learning for
 | 2026 | First author | ELF: Edit anything for light field displays | **B Liu**, Z Yang, Y Song, Y Xiong | Pattern Recognition 2026 |
 | 2026 | First author | PFR-Net: Reliability-Ordered Evidence Routing for Light Field Denoising | **B Liu**, Y Song, Z Yang, Y Xiong | PRCV 2026 |
 | 2025 | First author | TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models | **B Liu**, Z Yang, C Chiu, Y Xiong | Pattern Recognition 2025 |
-| 2025 | Co-first author | EYE3: Turn Anything into Naked-eye 3D | Y Song, Z Yang, **B Liu**, Y Xiong, S Chen, L Yi, Z Zhang, X Yu | ICCV 2025 |
+| 2025 | Co-first author | EYE^3: Turn Anything into Naked-Eye 3D | Y Song, Z Yang, **B Liu**, Y Xiong, S Chen, L Yi, Z Zhang, X Yu | ICCV 2025 |
 | 2024 | Co-first author | DirectL: Efficient Radiance Fields Rendering for 3D Light Field Displays | Z Yang, **B Liu**, Y Song, L Yi, Y Xiong, Z Zhang, X Yu | TOG 2024 |
-| 2024 | Co-first author | GDB: gated convolutions-based document binarization | Z Yang, **B Liu**, Y Xiong, G Wu | Pattern Recognition 2024 |
+| 2024 | Co-first author | GDB: Gated Convolutions-based Document Binarization | Z Yang, **B Liu**, Y Xiong, G Wu | Pattern Recognition 2024 |
 | 2026 | Other author | EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers | Z Yang, M Yi, W Ma, C Fan, B Li, **B Liu**, Y Lou, Y Song, Y Xiong, Z Guo, ... | arXiv 2026 |
-| 2024 | Other author | Fat: Field-aware transformer for point cloud segmentation with adaptive attention fields | J Zhou, **B Liu**, Y Xiong, C Chiu, F Liu, X Gong | IEEE TII 2024 |
-| 2023 | Other author | Docdiff: Document enhancement via residual diffusion models | Z Yang, **B Liu**, Y Xxiong, L Yi, G Wu, X Tang, Z Liu, J Zhou, X Zhang | ACM MM 2023 |
+| 2024 | Other author | FAT: Field-Aware Transformer for Point Cloud Segmentation With Adaptive Attention Fields | J Zhou, **B Liu**, Y Xiong, C Chiu, F Liu, X Gong | IEEE TII 2024 |
+| 2023 | Other author | DocDiff: Document Enhancement via Residual Diffusion Models | Z Yang, **B Liu**, Y Xiong, L Yi, G Wu, X Tang, Z Liu, J Zhou, X Zhang | ACM MM 2023 |
 
 ## Links
 
