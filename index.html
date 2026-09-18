@@ -49,6 +49,54 @@
       text-decoration: underline;
     }
 
+    .paper-link {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .paper-link:hover {
+      color: var(--teal);
+      text-decoration: underline;
+    }
+
+    .pdf-link {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 54px;
+      padding: 4px 10px;
+      border: 1px solid rgba(15, 118, 110, 0.18);
+      border-radius: 999px;
+      background: #f0fdfa;
+      color: #0f766e;
+      font-size: 12px;
+      font-weight: 760;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
+    .pdf-link:hover {
+      border-color: rgba(15, 118, 110, 0.42);
+      background: #ccfbf1;
+      text-decoration: none;
+    }
+
+    .pdf-pending {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 54px;
+      padding: 4px 10px;
+      border: 1px solid rgba(148, 163, 184, 0.26);
+      border-radius: 999px;
+      background: #f8fafc;
+      color: #94a3b8;
+      font-size: 12px;
+      font-weight: 760;
+      line-height: 1.2;
+      white-space: nowrap;
+    }
+
     .shell {
       width: min(1120px, calc(100% - 40px));
       margin: 0 auto;
@@ -455,15 +503,17 @@
                 <th>Title</th>
                 <th>Authors</th>
                 <th>Venue</th>
+                <th>PDF</th>
               </tr>
             </thead>
             <tbody>
               <tr>
                 <td class="year">2026</td>
                 <td>First author</td>
-                <td>StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing</td>
+                <td><a class="paper-link" href="https://link.springer.com/chapter/10.1007/978-3-032-37324-3_16">StereoEdit: A Diffusion-Based Framework for Stereo-Consistent Image Editing</a></td>
                 <td><strong>B Liu</strong>, Z Yang, Y Song, Y Xiong</td>
                 <td>ECCV 2026</td>
+                <td><a class="pdf-link" href="https://link.springer.com/content/pdf/10.1007/978-3-032-37324-3_16.pdf">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2026</td>
@@ -471,6 +521,7 @@
                 <td>ELF: Edit anything for light field displays</td>
                 <td><strong>B Liu</strong>, Z Yang, Y Song, Y Xiong</td>
                 <td>Pattern Recognition 2026</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2502.05433">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2026</td>
@@ -478,6 +529,7 @@
                 <td>PFR-Net: Reliability-Ordered Evidence Routing for Light Field Denoising</td>
                 <td><strong>B Liu</strong>, Y Song, Z Yang, Y Xiong</td>
                 <td>PRCV 2026</td>
+                <td><span class="pdf-pending">TBA</span></td>
               </tr>
               <tr>
                 <td class="year">2025</td>
@@ -485,6 +537,7 @@
                 <td>TextDiff: Enhancing scene text image super-resolution with mask-guided residual diffusion models</td>
                 <td><strong>B Liu</strong>, Z Yang, C Chiu, Y Xiong</td>
                 <td>Pattern Recognition 2025</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2308.06743">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2025</td>
@@ -492,6 +545,7 @@
                 <td>EYE^3: Turn Anything into Naked-Eye 3D</td>
                 <td>Y Song, Z Yang, <strong>B Liu</strong>, Y Xiong, S Chen, L Yi, Z Zhang, X Yu</td>
                 <td>ICCV 2025</td>
+                <td><a class="pdf-link" href="https://openaccess.thecvf.com/content/ICCV2025/papers/Song_EYE3Turn_Anything_into_Naked-eye_3D_ICCV_2025_paper.pdf">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2024</td>
@@ -499,6 +553,7 @@
                 <td>DirectL: Efficient Radiance Fields Rendering for 3D Light Field Displays</td>
                 <td>Z Yang, <strong>B Liu</strong>, Y Song, L Yi, Y Xiong, Z Zhang, X Yu</td>
                 <td>TOG 2024</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2407.14053">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2024</td>
@@ -506,13 +561,23 @@
                 <td>GDB: Gated Convolutions-based Document Binarization</td>
                 <td>Z Yang, <strong>B Liu</strong>, Y Xiong, G Wu</td>
                 <td>Pattern Recognition 2024</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2302.02073">PDF</a></td>
+              </tr>
+              <tr>
+                <td class="year">2026</td>
+                <td>Other author</td>
+                <td>Real-Time Light-Field Path Tracing for 3D Displays via Sparse Spatial-Angular-Temporal Reconstruction</td>
+                <td>Z Yang, L Zou, L Zhu, Y Xiong, H Fan, <strong>B Liu</strong>, Y Song, Y Zhu, C Zeng, W Ye</td>
+                <td>SIGGRAPH 2026</td>
+                <td><a class="pdf-link" href="https://dl.acm.org/doi/pdf/10.1145/3799902.3811158">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2026</td>
                 <td>Other author</td>
                 <td>EVA01: Unified Native 3D Understanding and Generation via Mixture-of-Transformers</td>
                 <td>Z Yang, M Yi, W Ma, C Fan, B Li, <strong>B Liu</strong>, Y Lou, Y Song, Y Xiong, Z Guo, ...</td>
-                <td>arXiv 2026</td>
+                <td>SIGGRAPH Asia 2026</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2605.16745">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2024</td>
@@ -520,6 +585,7 @@
                 <td>FAT: Field-Aware Transformer for Point Cloud Segmentation With Adaptive Attention Fields</td>
                 <td>J Zhou, <strong>B Liu</strong>, Y Xiong, C Chiu, F Liu, X Gong</td>
                 <td>IEEE TII 2024</td>
+                <td><a class="pdf-link" href="https://ieeexplore.ieee.org/iel7/9424/10666802/10531725.pdf">PDF</a></td>
               </tr>
               <tr>
                 <td class="year">2023</td>
@@ -527,6 +593,7 @@
                 <td>DocDiff: Document Enhancement via Residual Diffusion Models</td>
                 <td>Z Yang, <strong>B Liu</strong>, Y Xiong, L Yi, G Wu, X Tang, Z Liu, J Zhou, X Zhang</td>
                 <td>ACM MM 2023</td>
+                <td><a class="pdf-link" href="https://arxiv.org/pdf/2305.03892">PDF</a></td>
               </tr>
             </tbody>
           </table>
